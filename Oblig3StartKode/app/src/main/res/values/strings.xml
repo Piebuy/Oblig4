@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Oblig3</string>
+    <string name="main_title">Kunsthandler</string>
+    <string name="velg_kunstner">Velg kunstner</string>
+    <string name="velg_kategori">Velg kategori</string>
+    <string name="bilder">Bilder</string>
+    <string name="detaljer">Detaljer</string>
+    <string name="betaling">Betaling</string>
+    <string name="back">Back</string>
+    <string name="velg_bilde_basert_paa">Velg bilde basert på</string>
+    <string name="antall_bilder_valgt">Antall bilder valgt: %1$s</string>
+    <string name="totalpris_med_pris">Totalpris: %1$s</string>
+    <string name="til_betaling">Til betaling</string>
+    <string name="kategori">Kategori</string>
+    <string name="kunstner">Kunstner</string>
+    <string name="title_wildflowers">Wildflowers</string>
+    <string name="delete">Delete</string>
+    <string name="totalpris">"Totalpris: "</string>
+    <string name="betalingsvalg">Betalingsvalg</string>
+    <string name="ikke_implementert">Ikke implementert</string>
+    <string name="betal">Betal!</string>
+    <string name="bildestørrelse_liten">LITEN</string>
+    <string name="bildestørrelse_medium">MEDIUM</string>
+    <string name="bildestørrelse_stor">STOR</string>
+    <string name="rammetype_tre">TRE</string>
+    <string name="rammetype_metal">METAL</string>
+    <string name="rammetype_plastikk">PLASTIKK</string>
+    <string name="legg_i_handlekurv">Legg i handlekurv</string>
+    <string name="hjem">Hjem</string>
+    <string name="velg_rammebredde">Velg rammebredde</string>
+    <string name="velg_ramme_og_st_rrelse">Velg ramme og størrelse</string>
+    <string name="lagt_i_handlekurv">Lagt i handlekurv!</string>
+    <string name="detaljer_pris">Pris: %s</string>
+</resources>
