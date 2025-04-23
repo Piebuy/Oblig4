@@ -1,6 +1,7 @@
 package com.example.oblig3.ui
 
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.example.oblig3.data.ArtUiState
 import com.example.oblig3.data.Category
 import com.example.oblig3.data.DataSource
@@ -13,6 +14,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
 import kotlin.math.roundToInt
 
 private const val EXTRA_PRICE = 200
@@ -20,6 +22,16 @@ private const val EXTRA_PRICE = 200
 class ArtViewModel: ViewModel() {
     private val _uiState = MutableStateFlow(ArtUiState())
     val uiState: StateFlow<ArtUiState> = _uiState.asStateFlow()
+
+    fun getCategories() {
+        viewModelScope.launch {
+
+            //TODO ????
+
+        }
+    }
+
+
 
     fun addPhoto(
         photo: SelectedPhoto) {
